@@ -61,7 +61,12 @@ this.orderService.query('', {}).subscribe((res) => {
 })
 
 ```
-## Examples
+## Methods
+- create
+- show
+- update
+- remove
+- query
 
 
 ## Contribution
