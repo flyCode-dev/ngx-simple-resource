@@ -1,8 +1,60 @@
-## Basic Usage
+<big><h1 align="center">ngx-simple-resource</h1></big>
 
-Inherit from HttpClientService class and your service will have these methods
-- create (post to url)
-- show 	 (get by id)
-- query  (list of entries)
-- remove (delete by id)
-- update (put data to url)
+<p align="center">
+  <a href="https://www.npmjs.com/package/ngx-simple-resource">
+    <img src="http://img.shields.io/npm/dm/ngx-simple-resource.svg?style=flat-square" alt="Downloads">
+  </a>
+
+  <a href="https://david-dm.org/flyCode-dev/ngx-simple-resource.svg">
+    <img src="https://david-dm.org/flyCode-dev/ngx-simple-resource.svg?style=flat-square" alt="Dependency Status">
+  </a>
+
+  <a href="https://github.com/flyCode-dev/regnum/blob/master/LICENSE">
+    <img src="https://img.shields.io/npm/l/ngx-simple-resource.svg?style=flat-square" alt="License">
+  </a>
+</p>
+
+![logo](https://user-images.githubusercontent.com/8617379/35768419-dbff7a16-0914-11e8-8d9d-28f7f03bff11.png)
+
+<p align="center"><big>
+Alternative Lib for regular expressions. 
+
+Instead of getting array get an object with keys you specify. See `Usage` section.
+</big></p>
+
+
+## Install
+
+```sh
+npm install --save ngx-simple-resource
+```
+
+## Usage
+
+```
+
+
+```
+## Examples
+
+
+## Contribution
+Contribution is welcome.
+
+## License
+
+MIT © [Flycode LLC](http://fly.co.de)
+
+[npm-url]: https://npmjs.org/package/ngx-simple-resource
+[npm-image]: https://img.shields.io/npm/v/ngx-simple-resource.svg?style=flat-square
+
+[travis-url]: https://travis-ci.org/flyCode-dev/ngx-simple-resource
+[travis-image]: https://img.shields.io/travis/flyCode-dev/ngx-simple-resource.svg?style=flat-square
+
+[coveralls-url]: https://coveralls.io/r/flyCode-dev/ngx-simple-resource
+[coveralls-image]: https://img.shields.io/coveralls/flyCode-dev/ngx-simple-resource.svg?style=flat-square
+
+[depstat-url]: https://david-dm.org/flyCode-dev/ngx-simple-resource
+[depstat-image]: https://david-dm.org/flyCode-dev/ngx-simple-resource.svg?style=flat-square
+
+[download-badge]: http://img.shields.io/npm/dm/ngx-simple-resource.svg?style=flat-square
