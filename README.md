@@ -31,9 +31,21 @@ npm install --save ngx-simple-resource
 ## Usage
 
 ```
+// In app.module
+import { NgxResourceModule } from 'ngx-simple-resource';
+
+...
+
+imports: [
+  NgxResourceModule
+  ...
+```
+
+```
+// Service file example
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {HttpClientService} from './http-client.service';
+import {HttpClientService} from 'ngx-simple-resource';
 import {HelperService} from './helper.service';
 import {Router} from "@angular/router";
 
@@ -54,7 +66,9 @@ export class OrderService extends HttpClientService {
 	}
 
 }
+```
 
+```
 // In component
 this.orderService.query('', {}).subscribe((res) => {
   this.orders = res;
