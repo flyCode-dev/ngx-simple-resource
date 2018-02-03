@@ -17,9 +17,8 @@
 ![logo](https://user-images.githubusercontent.com/8617379/35768419-dbff7a16-0914-11e8-8d9d-28f7f03bff11.png)
 
 <p align="center"><big>
-Alternative Lib for regular expressions. 
-
-Instead of getting array get an object with keys you specify. See `Usage` section.
+Alternative lib for resource services in Angular.
+This is parent service for any resource services, it works more like AngularJS resource and will be handy for migration from it.
 </big></p>
 
 
