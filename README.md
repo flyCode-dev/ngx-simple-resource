@@ -31,7 +31,34 @@ npm install --save ngx-simple-resource
 ## Usage
 
 ```
+import {Injectable} from '@angular/core';
+import {HttpClient} from '@angular/common/http';
+import {HttpClientService} from './http-client.service';
+import {HelperService} from './helper.service';
+import {Router} from "@angular/router";
 
+@Injectable()
+export class OrderService extends HttpClientService {
+	url: any = 'orders';
+
+	constructor(public http: HttpClient, public helper_service: HelperService, public router: Router) {
+		super(http, router);
+	}
+
+	own(queryParams = {}) {
+		return this.get(this.url + '/own', queryParams);
+	}
+
+	feedback(queryParams = {}) {
+		return this.put(this.url + '/:_id/feedback', queryParams, queryParams);
+	}
+
+}
+
+// In component
+this.orderService.query('', {}).subscribe((res) => {
+  this.orders = res;
+})
 
 ```
 ## Examples
